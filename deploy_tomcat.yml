@@ -14,7 +14,7 @@
 
   - name: download war file
     ansible.builtin.get_url:
-      url: {{ build_number }}
+      url: "{{ build_number }}"
       dest: /home/ubuntu/sourcefile/webapp.war
       username: siddeshg672@gmail.com
       password: Siddesh@123456

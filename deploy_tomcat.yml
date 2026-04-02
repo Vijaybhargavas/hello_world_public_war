@@ -2,7 +2,7 @@
 - hosts: websever
   become: yes
   vars:
-    build_number: '{{ url_artifact }}'
+    build_number: "{{ url_artifact }}"
   #become_user: tomcat
   tasks:
 

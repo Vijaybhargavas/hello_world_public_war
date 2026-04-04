@@ -1,5 +1,5 @@
 - hosts: webserver
-  become: true
+  become: yes
   vars:
     build_number: "{{ build_number }}"
   tasks:

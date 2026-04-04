@@ -10,5 +10,8 @@
     - name: pull an image
       shell: docker pull trialtypobk.jfrog.io/dockerbhargav/sampledockeruplaod:v1.0-{{ build_number }}
 
+    - name: remove container
+      shell: docker rm -f devopsAppDeploy
+
     - name: run container
-      shell: docker run -d -p 8082:8080 trialtypobk.jfrog.io/dockerbhargav/sampledockeruplaod:v1.0-{{ build_number }}
+      shell: docker run -d -p 8083:8080 trialtypobk.jfrog.io/dockerbhargav/sampledockeruplaod:v1.0-{{ build_number }}

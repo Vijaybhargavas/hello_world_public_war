@@ -10,4 +10,4 @@
       shell: docker pull trialtypobk.jfrog.io/dockerbhargav/sampledockeruplaod:v1.0-{{ build_number }}
 
     - name: run container
-      shell: docker run -d -p 8081:8080 trialtypobk.jfrog.io/dockerbhargav/sampledockeruplaod:v1.0-{{ build_number }}
+      shell: docker run -d -p 8082:8080 trialtypobk.jfrog.io/dockerbhargav/sampledockeruplaod:v1.0-{{ build_number }}

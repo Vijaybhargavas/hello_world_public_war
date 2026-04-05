@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: sampledockeruplaod
+        image: sampledockeruplaod:v.1.0.1
         ports:
         - containerPort: 8080
